@@ -1,0 +1,17 @@
+{
+  "LANG": "es", 
+  "LANG_ES": "Español",
+  "LANG_EN": "Inglés",
+  "LANG_RU": "Ruso",
+  "BOT_VER": "Ver",
+  "SIM_BLOCK_DATA": "Obtener datos del bloque",
+  "SIM_ULT_BLOQUE": "Haga clic en Ver para obtener el último bloque",
+  "SIM_VER_BLOQUE": "Informe el número de bloque y haga clic en Ver para obtener los datos",
+  "SIM_NAMESPACE": "Obtener datos de namespaces",
+  "SIM_PAG_NS": "Haga clic en Ver para obtener la primera página de namespaces",
+  "SIM_MOSAICO": "Obtener datos de mosaicos",
+  "SIM_MOSAICO_INFO": "Ver información del mosaico",
+  "SIM_VER_MOSAICO": "Informe el namespaceId y haga clic en Ver para obtener sus mosaics",
+  "SIM_CUENTA": "Obtener datos de cuentas",
+  "SIM_VER_CUENTA": "Informe la NEM address y haga clic en Ver para obtener los datos"
+}

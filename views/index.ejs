@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="<%=__(" LANG")%>" >
+
+<head>
+    <meta charset="utf-8">
+    <title>NIS Wrapper App</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h3>NIS Wrapper app</h3>
+        <p><a href="/?lang=es">
+                <%=__("LANG_ES")%></a> | <a href="/?lang=en">
+                <%=__("LANG_EN")%></a> | <a href="/?lang=ru">
+                <%=__("LANG_RU")%></a></p>
+        <h4 class="lead">
+            <%=__("SIM_CUENTA")%>
+        </h4>
+        <p>
+            <%=__("SIM_VER_CUENTA")%> <input type="text" id="cuenta"> <button class="btn btn-primary btn-sm" onclick="getAccount()">
+                <%=__("BOT_VER")%></button><span id="working4" class="loader" style="display:none"></span>
+            <div class="alert alert-info" style="overflow: scroll" id="datoscuenta"></div>
+        </p>
+
+        <h4 class="lead">
+            <%=__("SIM_BLOCK_DATA")%>
+        </h4>
+        <p>
+            <%=__("SIM_ULT_BLOQUE")%> <button class="btn btn-primary btn-sm" onclick="getLastBlock()">
+                <%=__("BOT_VER")%></button><span id="working0" class="loader" style="display:none"></span>
+            <div class="alert alert-info" style="overflow: scroll" id="ultimobloque"></div>
+        </p>
+        <p>
+            <%=__("SIM_VER_BLOQUE")%> <input type="number" id="numblock"> <button class="btn btn-primary btn-sm"
+                onclick="getBlockData()">
+                <%=__("BOT_VER")%></button><span id="working1" class="loader" style="display:none"></span>
+            <div class="alert alert-info" style="overflow: scroll" id="datosbloque"></div>
+        </p>
+
+        <h4 class="lead">
+            <%=__("SIM_NAMESPACE")%>
+        </h4>
+        <p>
+            <%=__("SIM_PAG_NS")%> <button class="btn btn-primary btn-sm" onclick="getNamespaces()">
+                <%=__("BOT_VER")%></button><span id="working2" class="loader" style="display:none"></span>
+            <div class="alert alert-info" style="overflow: scroll" id="datosnamespace"></div>
+        </p>
+
+        <h4 class="lead">
+            <%=__("SIM_MOSAICO")%>
+        </h4>
+        <p>
+            <%=__("SIM_VER_MOSAICO")%> <input type="text" id="mosaicname"> <button class="btn btn-primary btn-sm"
+                onclick="getMosaics()">
+                <%=__("BOT_VER")%></button><span id="working3" class="loader" style="display:none"></span>
+            <div class="alert alert-info" style="overflow: scroll" id="datosmosaico"></div>
+        </p>
+    </div>
+    <script src="/js/niswrapper.js"></script>
+</body>
+
+</html>

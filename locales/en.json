@@ -1,0 +1,18 @@
+{
+  "LANG": "en", 
+  "LANG_ES": "Spanish",
+  "LANG_EN": "English",
+  "LANG_RU": "Russian",
+  "BOT_VER": "Ver",
+  "BOT_VER": "View",
+  "SIM_BLOCK_DATA": "Get block data",
+  "SIM_ULT_BLOQUE": "Click View to get last block",
+  "SIM_VER_BLOQUE": "Enter block height and Click View to get block data",
+  "SIM_NAMESPACE": "Get namespace data",
+  "SIM_PAG_NS": "Click View to get first page of namespaces",
+  "SIM_MOSAICO": "Get mosaics",
+  "SIM_MOSAICO_INFO": "View mosaic info",
+  "SIM_VER_MOSAICO": "Enter namespaceId and Click View to get its mosaics",
+  "SIM_CUENTA": "Get accounts",
+  "SIM_VER_CUENTA": "Enter address and Click view to get account data"
+}
