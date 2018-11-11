@@ -2,6 +2,10 @@
 
 This is a demo app built with Node.js to wrap http NIS calls. 
 It should be deployed with an https server (nginx) serving as a proxy to Node.js.
+The index page is available in three languages (spanish, english and russian).
+
+This is a [diagram](https://github.com/ccastromar/niswrapper/blob/master/app-architecture.png) of app architecture with Nginx, Node.js, MongoDB and NIS.
+
 
 ## Getting Started
 
